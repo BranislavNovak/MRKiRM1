@@ -1,0 +1,57 @@
+#column-content {
+	FLOAT: none; MARGIN: 0px
+}
+#column-content #content {
+	HEIGHT: 1%; MARGIN-TOP: 3em
+}
+#column-one {
+	LEFT: 0px; OVERFLOW: visible; POSITION: absolute; TOP: 0px; Z-INDEX: 3
+}
+#footer {
+	MARGIN: 0px 0px 0px 13.6em
+}
+BODY {
+	FONT-SIZE: xx-small
+}
+#p-cactions LI {
+	FLOAT: left; HEIGHT: 0.9em; PADDING-BOTTOM: 0px! important; PADDING-TOP: 0px
+}
+#p-cactions LI A {
+	DISPLAY: block; PADDING-BOTTOM: 0.04em
+}
+#p-cactions LI.selected A {
+	PADDING-BOTTOM: 0.17em
+}
+#p-cactions LI A:hover {
+	PADDING-BOTTOM: 0.17em
+}
+.link-external {
+	BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.external {
+	BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#p-personal UL {
+	FLOAT: right
+}
+#p-personal LI {
+	FLOAT: left
+}
+LI#pt-userpage {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+LI#pt-anonuserpage {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+LI#pt-login {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+LI#pt-logout {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.visualClear {
+	HEIGHT: 0px; MARGIN: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; WIDTH: 100%
+}
+.firstHeading {
+	MARGIN-BOTTOM: 0.3em
+}

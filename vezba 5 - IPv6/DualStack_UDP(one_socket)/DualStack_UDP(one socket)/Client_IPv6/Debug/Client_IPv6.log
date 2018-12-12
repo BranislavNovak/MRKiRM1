@@ -1,0 +1,10 @@
+﻿Build started 12.12.2018 14:06:06.
+     1>Project "D:\RA221-2015\vezba 5 - IPv6\DualStack_UDP(one_socket)\DualStack_UDP(one socket)\Client_IPv6\Client_IPv6.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Client_IPv6.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : Access to the path 'D:\RA221-2015\VEZBA 5 - IPV6\DUALSTACK_UDP(ONE_SOCKET)\DUALSTACK_UDP(ONE SOCKET)\DEBUG\CLIENT_IPV6.EXE' is denied.
+     1>Done Building Project "D:\RA221-2015\vezba 5 - IPv6\DualStack_UDP(one_socket)\DualStack_UDP(one socket)\Client_IPv6\Client_IPv6.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.01

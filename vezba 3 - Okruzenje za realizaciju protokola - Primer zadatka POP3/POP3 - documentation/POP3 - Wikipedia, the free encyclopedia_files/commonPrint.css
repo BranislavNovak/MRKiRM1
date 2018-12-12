@@ -1,0 +1,204 @@
+A.stub {
+	COLOR: #ba0000; TEXT-DECORATION: none
+}
+A.new {
+	COLOR: #ba0000; TEXT-DECORATION: none
+}
+#toc {
+	BACKGROUND-COLOR: #f9f9f9; BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.tocindent {
+	MARGIN-LEFT: 2em
+}
+.tocline {
+	MARGIN-BOTTOM: 0px
+}
+.toctoggle {
+	FONT-SIZE: smaller
+}
+.editsection {
+	FONT-SIZE: smaller
+}
+DIV.floatright {
+	BORDER-BOTTOM: white 0.8em solid; BORDER-LEFT: white 1.4em solid; BORDER-RIGHT: white 0px solid; BORDER-TOP: white 0.5em solid; FLOAT: right; MARGIN: 0px; POSITION: relative
+}
+DIV.floatright P {
+	FONT-STYLE: italic
+}
+DIV.floatleft {
+	BORDER-BOTTOM: white 0.8em solid; BORDER-LEFT: white 0px solid; BORDER-RIGHT: white 1.4em solid; BORDER-TOP: white 0.5em solid; FLOAT: left; MARGIN: 0.3em 0.5em 0.5em 0px; POSITION: relative
+}
+DIV.floatleft P {
+	FONT-STYLE: italic
+}
+DIV.thumb {
+	BORDER-BOTTOM-COLOR: white; BORDER-BOTTOM-STYLE: solid; BORDER-LEFT-COLOR: white; BORDER-LEFT-STYLE: solid; BORDER-RIGHT-COLOR: white; BORDER-RIGHT-STYLE: solid; BORDER-TOP-COLOR: white; BORDER-TOP-STYLE: solid; MARGIN-BOTTOM: 0.5em; OVERFLOW: hidden; WIDTH: auto
+}
+DIV.thumb DIV {
+	BACKGROUND-COLOR: #f9f9f9; BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 94%; PADDING-BOTTOM: 3px! important; PADDING-LEFT: 3px! important; PADDING-RIGHT: 3px! important; PADDING-TOP: 3px! important; TEXT-ALIGN: center
+}
+DIV.thumb DIV A IMG {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid
+}
+DIV.thumb DIV DIV.thumbcaption {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0.3em; TEXT-ALIGN: left
+}
+DIV.magnify {
+	DISPLAY: none
+}
+DIV.tright {
+	BORDER-BOTTOM-WIDTH: 0.8em; BORDER-LEFT-WIDTH: 1.4em; BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0.5em; FLOAT: right
+}
+DIV.tleft {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; FLOAT: left; MARGIN-RIGHT: 0.5em
+}
+TABLE.rimage {
+	FLOAT: right; MARGIN-BOTTOM: 1em; MARGIN-LEFT: 1em; POSITION: relative; TEXT-ALIGN: center; WIDTH: 1pt
+}
+BODY {
+	BACKGROUND: white; COLOR: black; MARGIN: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV.top {
+	DISPLAY: none
+}
+DIV#column-one {
+	DISPLAY: none
+}
+#colophon {
+	DISPLAY: none
+}
+.editsection {
+	DISPLAY: none
+}
+.toctoggle {
+	DISPLAY: none
+}
+DIV#f-poweredbyico {
+	DISPLAY: none
+}
+DIV#f-copyrightico {
+	DISPLAY: none
+}
+LI#f-viewcount {
+	DISPLAY: none
+}
+LI#f-about {
+	DISPLAY: none
+}
+LI#f-disclaimer {
+	DISPLAY: none
+}
+UL {
+	LIST-STYLE: square
+}
+#content {
+	BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 11pt; MARGIN: 0px; PADDING-BOTTOM: 0px! important; PADDING-LEFT: 0px! important; PADDING-RIGHT: 0px! important; PADDING-TOP: 0px! important; TEXT-ALIGN: left
+}
+#footer {
+	BORDER-TOP: black 1px solid
+}
+H1 {
+	FONT-WEIGHT: bold
+}
+H2 {
+	FONT-WEIGHT: bold
+}
+H3 {
+	FONT-WEIGHT: bold
+}
+H4 {
+	FONT-WEIGHT: bold
+}
+H5 {
+	FONT-WEIGHT: bold
+}
+H6 {
+	FONT-WEIGHT: bold
+}
+P {
+	LINE-HEIGHT: 1.2em; MARGIN: 1em 0px
+}
+.documentDescription {
+	LINE-HEIGHT: 1.2em; MARGIN: 1em 0px
+}
+.tocindent P {
+	MARGIN: 0px
+}
+PRE {
+	BORDER-BOTTOM: black 1pt dashed; BORDER-LEFT: black 1pt dashed; BORDER-RIGHT: black 1pt dashed; BORDER-TOP: black 1pt dashed; FONT-SIZE: 8pt; OVERFLOW: auto; PADDING-BOTTOM: 1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 1em; WHITE-SPACE: pre
+}
+TABLE.listing {
+	BORDER-BOTTOM: black 1pt solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-TOP: black 1pt solid
+}
+TABLE.listing TD {
+	BORDER-BOTTOM: black 1pt solid; BORDER-COLLAPSE: collapse; BORDER-LEFT: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-TOP: black 1pt solid
+}
+A {
+	COLOR: black! important; PADDING-BOTTOM: 0px! important; PADDING-LEFT: 0px! important; PADDING-RIGHT: 0px! important; PADDING-TOP: 0px! important
+}
+A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #520; TEXT-DECORATION: underline
+}
+A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #520; TEXT-DECORATION: underline
+}
+#globalWrapper {
+	WIDTH: 100%! important; min-width: 0
+}
+#column-content {
+	MARGIN: 0px
+}
+#column-content #content {
+	MARGIN: 0px; PADDING-BOTTOM: 1em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; PADDING-TOP: 1em
+}
+A {
+	COLOR: black! important; TEXT-DECORATION: none! important
+}
+A.external {
+	COLOR: black! important; TEXT-DECORATION: none! important
+}
+A.new {
+	COLOR: black! important; TEXT-DECORATION: none! important
+}
+A.stub {
+	COLOR: black! important; TEXT-DECORATION: none! important
+}
+A {
+	
+}
+A.external {
+	
+}
+A.new {
+	
+}
+A.stub {
+	
+}
+IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none
+}
+IMG.tex {
+	VERTICAL-ALIGN: middle
+}
+SPAN.texhtml {
+	FONT-FAMILY: serif
+}
+.urlexpansion {
+	DISPLAY: inline! important
+}
+DIV.townBox {
+	BACKGROUND: white; BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; CLEAR: right; FLOAT: right; MARGIN-LEFT: 1em; OVERFLOW: hidden; PADDING-BOTTOM: 0.3em; PADDING-LEFT: 0.3em; PADDING-RIGHT: 0.3em; PADDING-TOP: 0.3em; POSITION: relative; WIDTH: 200px
+}
+DIV.townBox DL {
+	FONT-SIZE: 96%; MARGIN: 0px 0px 0.3em; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV.townBox DL DT {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 0.4em 0px 0px
+}
+DIV.townBox DL DD {
+	BACKGROUND-COLOR: #f3f3f3; MARGIN: 0.1em 0px 0px 1.1em
+}
+#siteNotice {
+	DISPLAY: none
+}

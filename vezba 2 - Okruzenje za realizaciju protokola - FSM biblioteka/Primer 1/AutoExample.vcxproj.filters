@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{880ca5ad-7329-47c5-99c4-895c6bba155d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{1d86edae-8378-45c5-9719-401dbd69fce6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoExample.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\buffers.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\buffersQueue.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\Client.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\Distribution.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\errorObject.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fsm.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fsmSystem.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\kernelAPI.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\KernelFunctions.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\linuxFunctions.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\logAutomate.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\LogFile.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\mailbox.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\messages.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\msgInterface.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\NetFSM.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\postOffice.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\standardMsg.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\stdMsgpc16pl16.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\systemFunctions.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\systemTCP.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\thread.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\timer.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\TransportInterface.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\UdpFSM.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\UdpLogInterface.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoExample.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\buffers.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\buffersQueue.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\Client.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\Distribution.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\errorObject.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fsm.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fsmSystem.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\kernelAPI.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\kernelConsts.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\kernelTypes.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\linuxThread.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\logAutomate.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\LogFile.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\mailbox.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\messages.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\msgInterface.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\NetException.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\NetFSM.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\postOffice.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\standardMsg.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\stdMsgpc16pl16.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\systemFunctions.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\systemTCP.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\thread.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ThreadException.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\timer.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\TransportInterface.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\UdpFSM.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\UdpLogInterface.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\uniSock.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="kernel\KernelLib.lib">
+      <Filter>kernel</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

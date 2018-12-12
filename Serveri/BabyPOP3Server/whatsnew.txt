@@ -1,0 +1,16 @@
+Baby POP3 Server - Programmed by Pablo van der Meer
+
+[03/10/2003] Version 1.00
+- Initial release
+
+[05/30/2003] Version 1.01
+- A few small improvements to prevent DOS attacks.
+
+[12/21/2003] Version 1.02
+- Added automatically startup option.
+
+[09/05/2004] Version 1.03
+- Fixed: TOP command was not correctly implemented.
+
+[01/12/2005] Version 1.04
+- Fixed: Timing problem while monitoring Drop folder.

@@ -16,7 +16,8 @@
 #ifdef _MSC_VER
 	#define _CRT_SECURE_NO_WARNINGS
 #endif
-
+#define ROWS 3
+#define COLUMNS 7
 // Include libraries
 #include <stdlib.h>
 #include <stdio.h>
@@ -32,8 +33,11 @@ void packet_handler(unsigned char *param, const struct pcap_pkthdr *packet_heade
 unsigned char* encrypt_data(const unsigned char* packet_data, unsigned char* app_data, int app_length);					// Returns a copy of packet with encrypted application data
 void print_message_as_table(unsigned char* data, int rows_max, int columns_max);										// Prints application data using table format
 int find_key(int key, int * keys, int keys_size);																		// Finds specific key in array of keys and returns its index
+void encrypt_data_help(unsigned char* packet_data, unsigned char* app_data, int app_length);
 
 #define ETHERNET_FRAME_MAX 1518		// Maximal length of ethernet frame
+unsigned int rows_key[ROWS] = {1, 0, 2};
+unsigned int columns_key[COLUMNS] = {1, 0, 6, 2, 4, 3, 5};
 
 // Main function captures packets from the file
 int main()
@@ -132,18 +136,63 @@ unsigned char* encrypt_data(const unsigned char* packet_data, unsigned char* app
 {
 	// Reserve memory for copy of the packet
 	unsigned char encrypted_packet[ETHERNET_FRAME_MAX];
+	unsigned char encrypted_packet_tmp[ETHERNET_FRAME_MAX];
 
 	// TODO 1: Define keys
-
+	unsigned char keys[ROWS][COLUMNS];
+	
+		
 	// TODO 2: Print original message in table format
+	print_message_as_table((unsigned char*)app_data, ROWS, COLUMNS);
 
 	// TODO 3: Create a copy of the packets (copy headers and initialize application data with zeros)
+	memcpy(encrypted_packet, packet_data, ETHERNET_FRAME_MAX);
+	memset(encrypted_packet + ETHERNET_FRAME_MAX - app_length, 'X', app_length);
 
+	//print_message_as_table((unsigned char*)encrypted_packet + ETHERNET_FRAME_MAX - app_length, ROWS, COLUMNS);
+	
 	// TODO 4: Find new row and column indices using old row and column indices
-
 	// TODO 5: Encrypt application data
+	//encrypt_data((unsigned char*)encrypted_packet[ETHERNET_FRAME_MAX - app_length], (unsigned char*)app_data, app_length);
 
+	memcpy(encrypted_packet_tmp, encrypted_packet, ETHERNET_FRAME_MAX);
+	for(int i = 0; i < ROWS; i++)
+	{
+		for(int j = 0; j < COLUMNS; j++)
+		{
+			encrypted_packet_tmp[ETHERNET_FRAME_MAX - app_length + i*COLUMNS + j]  = app_data[rows_key[i]*COLUMNS + columns_key[j]]; 
+		}
+	}
 	// TODO 6: Print encrypted message
+	printf("\n\n rows: {1, 0, 2}  columns: {1, 0, 6, 2, 4, 3, 5}\n\n");
+	print_message_as_table((unsigned char*)encrypted_packet_tmp + ETHERNET_FRAME_MAX - app_length, ROWS, COLUMNS);
 
 	return encrypted_packet;
+}
+
+void print_message_as_table(unsigned char* data, int rows_max, int columns_max)
+{
+	for(int i = 0; i < rows_max; i++)
+	{
+		for(int j = 0; j < columns_max; j++)
+		{
+			printf(" %c ", data[i*columns_max + j]);
+		}
+		printf("\n");
+	}
+}
+
+void encrypt_data_help(unsigned char* packet_data, unsigned char* app_data, int app_length)
+{
+	unsigned char encrypted_packet_help[ETHERNET_FRAME_MAX];
+	memcpy(encrypted_packet_help, packet_data, ETHERNET_FRAME_MAX);
+	memset(encrypted_packet_help + ETHERNET_FRAME_MAX - app_length, 'X', app_length);
+
+	for(int i = 0; i < ROWS; i++)
+	{
+		for(int j = 0; j < COLUMNS; j++)
+		{
+			encrypted_packet_help[ETHERNET_FRAME_MAX - app_length + rows_key[i]*COLUMNS + columns_key[j]]  = packet_data[i*COLUMNS + j]; 
+		}
+	}
 }
